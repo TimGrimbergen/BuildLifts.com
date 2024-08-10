@@ -1,9 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Some website</title>
-    </head>
-    <body>
-        hi
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrimbergenSoftware</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Figures/logo.jpg" alt="Grimbergen Software Logo">
+        </div>
+        <nav>
+            <a href="about.html" class="nav-btn">About Us</a>
+            <a href="services.html" class="nav-btn">Services</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Homepage -->
+        <section id="home">
+            <div class="intro">
+                <h2>Welcome to Grimbergen Software</h2>
+                <p>We offer cutting-edge software solutions tailored to your needs.</p>
+                <a href="#services" class="btn">Explore Our Services</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <div class="services-grid">
+                <div class="service-box" id="algorithm-box">
+                    <div class="top-service-box">
+                        <img src="Figures/algorithm.jpg" alt="Service 1" class="service-image" id="algorithm-box-icon">
+                        <h1>Algorithm Design</h1>
+                    </div>
+                    <p>
+                        By applying theoretical knowledge about graphs, geometry, physics, scheduling and many more topics
+                        we are able to create dedicated algorithms that fit your practical needs.
+                    </p>
+                </div>
+                <div class="service-box" id="cloud-box">
+                    <div class="top-service-box">
+                        <img src="Figures/cloud.jpg" alt="Service 2" class="service-image" id="cloud-box-icon">
+                        <h1>Cloud Solutions</h1>
+                    </div>
+                    <p>
+                        We provide support in small to medium sized cloud-based projects from database management systems to website building.
+                    </p>
+                </div>
+                <div class="service-box" id="data-box">
+                    <div class="top-service-box">
+                        <img src="Figures/data.jpg" alt="Service 3" class="service-image" id="data-box-icon">
+                        <h1>Data Insights</h1>
+                    </div>
+                    <p>We develop tools that yield meaningful insights tailored to your data applications.</p>
+                </div>
+                <div class="service-box" id="optimization-box">
+                    <div class="top-service-box">
+                        <img src="Figures/optimization.jpg" alt="Service 4" class="service-image" id="optimization-box-icon">
+                        <h1>Optimization</h1>
+                    </div>
+                    <p>After thorough analysis of your existing product, we offer consultation for further enhancements.</p>
+                </div>
+            </div>
+            <a href="services.html" class="btn">Learn More</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Grimbergen Software. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
